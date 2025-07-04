@@ -1775,6 +1775,7 @@ body {
     .conclusion-text {
         font-size: 16px;
         margin: 0;
+        font-weight: 200;
     }
 
     .conclusion-emphasis-img {
@@ -1793,7 +1794,7 @@ body {
     .symptoms-conclusion-text {
         font-size: 14px;
         margin-top: 2rem;
-        font-weight: 400;
+        
     }
 
     .section-title-center {
