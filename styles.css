@@ -187,7 +187,7 @@ body {
     height: 90%;
     z-index: 1;
     background-size: cover;
-    background-image: url('hero-background.png');
+    background-image: url('https://clinicarigatti.s3-accelerate.amazonaws.com/imagens_sites/hero-background.png');
     background-repeat: no-repeat;
     background-position: center;*/
 }
@@ -247,7 +247,7 @@ body {
 }
 
 .cta-button {
-    background-image: url('cta-background.png');
+    background-image: url('https://clinicarigatti.s3-accelerate.amazonaws.com/imagens_sites/cta-background.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -279,7 +279,7 @@ body {
     border-radius: 58px;
     position: relative;
     z-index: 10;
-    background-image: url('symptoms-background.png');
+    background-image: url('https://clinicarigatti.s3-accelerate.amazonaws.com/imagens_sites/symptoms-background.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -304,7 +304,7 @@ body {
 
 .symptoms-divider span {
     width: 200px;
-    background-image: url('divider-background.png');
+    background-image: url('https://clinicarigatti.s3-accelerate.amazonaws.com/imagens_sites/divider-background.png');
     height: 2px;
 }
 
@@ -972,7 +972,7 @@ body {
     background-color: #121212;
     border-top-left-radius: 58px;
     border-top-right-radius: 58px;
-    background-image: url('symptoms-background.png');
+    background-image: url('https://clinicarigatti.s3-accelerate.amazonaws.com/imagens_sites/symptoms-background.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
