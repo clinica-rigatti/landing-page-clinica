@@ -192,6 +192,10 @@ body {
     background-position: center;*/
 }
 
+.overlay-mobile {
+    display: none;
+}
+
 .hero-background img {
     position: absolute;
     top: 0;
@@ -1174,12 +1178,12 @@ body {
 
 /* Responsive Design */
 
-@media (max-width: 2560px) {
+@media (min-width: 2560px) {
 
     .header {
         width: calc(100% - 80px);
         max-width: 100%;
-        padding: 10px 40px;
+        padding: 0px 40px;
     }
 
     .hero {
@@ -1648,18 +1652,30 @@ body {
 
     .hero {
         height: 270px;
+        position: relative;
     }
 
     .hero-content {
-        width: 100%;
-        top: 30%;
-        left: 0;
+        width: 80%;
+        position: static;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         padding: 0;
+        margin-top: 3rem;
         gap: 0.5rem;
+    }
+
+    .overlay-mobile {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 2;
     }
 
     .hero-content .cta-button {
@@ -1668,17 +1684,13 @@ body {
         font-size: 14px;
     }
 
-    .hero-title {
-        margin-bottom: 1rem;
-    }
-
     .hero-title,
     .hero-subtitle {
         font-size: 16px;
         text-align: center;
         color: #f4f2f2;
         font-weight: 550;
-        padding: 0 1rem;
+        padding: 0 2rem;
     }
 
     .hero-subtitle br {
@@ -1689,10 +1701,6 @@ body {
         gap: 0;
         margin: 0;
         display: none;
-    }
-
-    .hero-background img {
-        filter: blur(3px);
     }
 
     .container {
@@ -1813,7 +1821,7 @@ body {
     .symptoms-conclusion-text {
         font-size: 14px;
         margin-top: 2rem;
-        
+
     }
 
     .section-title-center {
@@ -1868,11 +1876,11 @@ body {
         text-align: left;
     }
 
-     .about-description > p >  br {
+    .about-description>p>br {
         display: none;
-     }
+    }
 
-      .about-title {
+    .about-title {
         font-size: 3rem;
         top: 1.5rem;
     }
@@ -1974,7 +1982,7 @@ body {
     }
 
     .faq {
-        border-radius: 23px;
+        border-radius: 0;
     }
 
     .faq .container .cta-button {
