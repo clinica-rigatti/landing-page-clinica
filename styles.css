@@ -1654,6 +1654,10 @@ body {
         font-size: 14px;
     }
 
+    .hero-title {
+        margin-bottom: 1rem;
+    }
+
     .hero-title,
     .hero-subtitle {
         font-size: 16px;
