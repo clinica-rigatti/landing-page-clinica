@@ -128,18 +128,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elementsToAnimate.forEach(el => observer.observe(el));
 });
 
-// Header background change on scroll
-window.addEventListener('scroll', function() {
-    const header = document.querySelector('.header-container');
-    
-    if (window.scrollY > 100) {
-        header.style.backgroundColor = 'rgba(44, 44, 44, 0.95)';
-        header.style.backdropFilter = 'blur(15px)';
-    } else {
-        header.style.backgroundColor = '#2c2c2c';
-        header.style.backdropFilter = 'blur(10px)';
-    }
-});
+
 
 // Smooth reveal animations for sections
 const revealElements = document.querySelectorAll('.symptoms, .how-it-works, .about, .results, .doctor, .faq');
