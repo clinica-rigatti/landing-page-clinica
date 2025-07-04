@@ -1633,13 +1633,13 @@ body {
     }
 
     .hero {
-        height: 250px;
+        height: 270px;
     }
 
     .hero-content {
-        width: 80%;
+        width: 100%;
         top: 30%;
-        left: 10%;
+        left: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1660,6 +1660,7 @@ body {
         text-align: center;
         color: #f4f2f2;
         font-weight: 550;
+        padding: 0 1rem;
     }
 
     .hero-subtitle br {
