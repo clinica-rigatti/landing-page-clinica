@@ -1778,7 +1778,7 @@ body {
     }
 
     .conclusion-emphasis-img {
-        width: 80%;
+        width: 100%;
     }
 
     .conclusion-emphasis-text p {
@@ -1786,7 +1786,7 @@ body {
     }
 
     .conclusion-emphasis-text>.cta-button {
-        font-size: 10px;
+        font-size: 14px;
         padding: 0.5rem 1rem;
     }
 
