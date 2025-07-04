@@ -1858,6 +1858,51 @@ body {
         display: none;
      }
 
+      .about-title {
+        font-size: 3rem;
+        top: 1.5rem;
+    }
+
+    .carousel-nav {
+        position: absolute;
+        width: 100%;
+        top: 60%;
+    }
+
+    .carousel-prev,
+    .carousel-next {
+        color: #d9d9d9;
+        background-color: transparent;
+        border: none;
+        font-size: 2rem;
+    }
+
+    .carousel-prev {
+        position: absolute;
+        left: .5rem;
+    }
+
+    .carousel-track {}
+
+    .nav-arrow.left {
+        left: 1rem;
+        padding-right: 3px;
+    }
+
+    .nav-arrow.right {
+        right: 1rem;
+        padding-left: 3px;
+    }
+
+    .carousel-next {
+        position: absolute;
+        right: .5rem;
+    }
+
+    .member-name-videos {
+        font-size: 20px;
+    }
+
     .doctor {
         padding: 2rem 0;
     }
